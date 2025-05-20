@@ -14,7 +14,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-gray-50 text-black">
-        <nav className="bg-white text-black shadow px-6 py-4 flex gap-6">
+        <nav className="bg-white dark:bg-gray-900 text-black dark:text-white shadow px-6 py-4 flex gap-6">
           <Link href="/" className="font-semibold hover:underline">
             Home
           </Link>
